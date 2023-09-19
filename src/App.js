@@ -4,14 +4,12 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import "./App.css";
-import Header from "./components/Header";
-import TodoList from "./components/TodoList";
+import TodoApp from "./TodoApp";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <TodoList />
+      <TodoApp />
     </div>
   );
 }
